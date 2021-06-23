@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Budget Manager</title>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="popup.js"></script>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .container {
+      width: fit-content;
+      margin: 5px;
+      padding: 5px;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Budget Manager</h1>
+    <h2>total spend: <span id="total">0</span></h2>
+    <h1>Limit: <span id="limit"></span></h1>
+    <h3>Enter amount</h3>
+    <input type="text" id="amount">
+    <button id="submit">submit</button>
+  </div>
+</body>
+
+</html>
